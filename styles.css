@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.form-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+  background: #4CAF50;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+#listaClientes li {
+  background: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btnExcluir {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.btnExcluir:hover {
+  background: darkred;
+}
